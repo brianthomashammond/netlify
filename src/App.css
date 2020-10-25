@@ -59,6 +59,7 @@ p3 {
 
 projects {
   opacity: 0;
+  color: #A6E22E;
   animation: reveal 0.1s 3s forwards;
 }
 
@@ -67,9 +68,14 @@ skills {
   animation: reveal 0.1s 3.5s forwards;
 }
 
-contact {
+resume {
   opacity: 0;
   animation: reveal 0.1s 4s forwards;
+}
+
+contact {
+  opacity: 0;
+  animation: reveal 0.1s 4.5s forwards;
 }
 
 .navbar.top {
@@ -144,9 +150,9 @@ contact {
   left: 50vw
 }
 
-.resume.fadeOut {
+.skills.fadeOut {
   opacity: 1;
-  animation: resume-fade-out ease 1.5s forwards;
+  animation: skills-fade-out ease 1.5s forwards;
   margin: 0;
   position: absolute;
   top: 95vh;
@@ -157,9 +163,9 @@ contact {
   transition: 2s;
 }
 
-.resume.fadeIn {
+.skills.fadeIn {
   opacity: 0;
-  animation: resume-fade-in ease 2.5s forwards;
+  animation: skills-fade-in ease 2.5s forwards;
   margin: 0;
   position: absolute;
   top: 50vh;
@@ -170,7 +176,7 @@ contact {
   transition: 2s
 }
 
-.resume.off {
+.skills.off {
   opacity: 0;
   top: 90vh;
   left: 50vw
@@ -212,7 +218,7 @@ contact {
   }
 }
 
-@keyframes resume-fade-in {
+@keyframes skills-fade-in {
   from {
     opacity: 0;
     transform: translate(-50%, 0%);
@@ -225,7 +231,7 @@ contact {
   }
 }
 
-@keyframes resume-fade-out {
+@keyframes skills-fade-out {
   from {
     opacity: 1;
     transform: translate(-50%, -50%);
@@ -311,8 +317,8 @@ contact {
 } */
 
 .projects.projectone-image-wrapper {
-  content: url('./assets/biglogo.png');
-  max-width: 30%;
+  content: url('./assets/1457633527.svg');
+  max-width: 50%;
   height: auto;
 }
 
@@ -341,55 +347,55 @@ contact {
   overflow: hidden;
 }
 
-.resume.javascript-image-wrapper {
+.skills.javascript-image-wrapper {
   content: url('./assets/javascript.svg');
   max-width: 10%;
   height: auto;
 }
 
-.resume.css3-image-wrapper {
+.skills.css3-image-wrapper {
   content: url('./assets/css3-original-wordmark.svg');
   max-width: 10%;
   height: auto;
 }
 
-.resume.git-image-wrapper {
+.skills.git-image-wrapper {
   content: url('./assets/git-plain-wordmark.svg');
   max-width: 10%;
   height: auto;
 }
-.resume.html5-image-wrapper {
+.skills.html5-image-wrapper {
   content: url('./assets/html5-original-wordmark.svg');
   max-width: 10%;
   height: auto;
 }
-.resume.postgresql-image-wrapper {
+.skills.postgresql-image-wrapper {
   content: url('./assets/postgresql-original-wordmark.svg');
   max-width: 10%;
   height: auto;
 }
-.resume.postman-image-wrapper {
+.skills.postman-image-wrapper {
   content: url('./assets/postman.png');
   max-width: 10%;
   height: auto;
 }
-.resume.rails-image-wrapper {
+.skills.rails-image-wrapper {
   content: url('./assets/rails-original-wordmark.svg');
   max-width: 10%;
   height: auto;
 }
-.resume.react-image-wrapper {
+.skills.react-image-wrapper {
   content: url('./assets/react-original-wordmark.svg');
   max-width: 10%;
   height: auto;
 }
-.resume.ruby-image-wrapper {
+.skills.ruby-image-wrapper {
   content: url('./assets/ruby-plain-wordmark.svg');
   max-width: 10%;
   height: auto;
   border-style: 2px solid white;
 }
-.resume.sql-image-wrapper {
+.skills.sql-image-wrapper {
   content: url('./assets/sql.svg');
   max-width: 10%;
   height: auto;

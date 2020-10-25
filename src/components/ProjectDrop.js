@@ -2,21 +2,20 @@ import React, { Component } from 'react';
 
 export default class ProjectDrop extends Component {
     render() {
-        return(
-            <div className = { this.props.projectsPosition }> 
+        return (
+            <div className={this.props.projectsPosition}>
 
                 <div className="projects thumbnails-container">
-                <ul>
+                    <ul>
                         <li id="projectone" onclick="toggleExpansion(event, this.id)">
                             <div className="projects projectone-wrapper">
                                 <i className="projects projectone-image-wrapper"></i>
                             </div>
 
                             <div id="projectone-links-wrapper" class="fade-in">
-                                <h3>Project One</h3>
-                                <p2>First Project</p2>
-                                <br/>
-                                <p2><a href="projectone deployed link" target="_blank">live</a> | <a href="projectone github link" target="_blank">github</a></p2>
+                                <p2>Riddle Me This...</p2>
+                                <br />
+                                <p2><a href="https://brianthomashammond.github.io/riddle-me-this/" target="_blank">live</a> | <a href="https://github.com/brianthomashammond/riddle-me-this" target="_blank">github</a></p2>
                             </div>
                         </li>
 
@@ -26,9 +25,8 @@ export default class ProjectDrop extends Component {
                             </div>
 
                             <div id="projecttwo-links-wrapper" class="fade-in">
-                                <h3>Project Two</h3>
-                                <p2>Second Project</p2>
-                                <br/>
+                                <p2>In Progress</p2>
+                                <br />
                                 <p2><a href="projecttwo deployed link" target="_blank">live</a> | <a href="projecttwo github link" target="_blank">github</a></p2>
                             </div>
                         </li>
@@ -37,19 +35,18 @@ export default class ProjectDrop extends Component {
                             <div className="projects projectthree-wrapper">
                                 <i className="projects projectthree-image-wrapper"></i>
                             </div>
-                        
+
                             <div id="projectthree-links-wrapper" class="fade-in">
-                                <h3>Project Three</h3>
-                                <p2>Third Project</p2>
-                                <br/>
+                                <p2>In Progress</p2>
+                                <br />
                                 <p2><a href="projectthree deployed link" target="_blank">live</a> | <a href="projectthree live link" target="_blank">github</a>
                                 </p2>
                             </div>
                         </li>
-                </ul>
+                    </ul>
+                </div>
             </div>
-		</div>
         )
     }
-    
+
 }
