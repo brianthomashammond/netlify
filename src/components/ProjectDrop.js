@@ -15,7 +15,7 @@ export default class ProjectDrop extends Component {
                             <div id="projectone-links-wrapper" class="fade-in">
                                 <p2>Riddle Me This...</p2>
                                 <br />
-                                <p2><a href="https://brianthomashammond.github.io/riddle-me-this/" target="_blank">live</a> | <a href="https://github.com/brianthomashammond/riddle-me-this" target="_blank">github</a></p2>
+                                <p2><a href="https://brianthomashammond.github.io/riddle-me-this/" target="_blank" rel="noopener noreferrer">live</a> | <a href="https://github.com/brianthomashammond/riddle-me-this" target="_blank" rel="noopener noreferrer">github</a></p2>
                             </div>
                         </li>
 
