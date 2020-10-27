@@ -285,8 +285,9 @@ contact {
   /* display: none;   */
   box-sizing: border-box;
   padding: 5%;
+  text-align: center;
   color: var(--gray);
-  width: 45%;
+  width: 100%;
 }
 
 #projectone-links-wrapper h3,
