@@ -25,9 +25,9 @@ export default class ProjectDrop extends Component {
                             </div>
 
                             <div id="projecttwo-links-wrapper" class="fade-in">
-                                <p2>In Progress</p2>
+                                <p2>LARK</p2>
                                 <br />
-                                <p2><a href="projecttwo deployed link" target="_blank">live</a> | <a href="projecttwo github link" target="_blank">github</a></p2>
+                                <p2><a href="https://github.com/brianthomashammond/LARK" target="_blank" rel="noopener noreferrer">github</a></p2>
                             </div>
                         </li>
 

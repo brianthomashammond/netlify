@@ -323,7 +323,7 @@ contact {
 }
 
 .projects.projecttwo-image-wrapper {
-  content: url('./assets/biglogo.png');
+  content: url('./assets/LARK.png');
   max-width: 30%;
   height: auto;
 }
@@ -393,7 +393,6 @@ contact {
   content: url('./assets/ruby-plain-wordmark.svg');
   max-width: 10%;
   height: auto;
-  border-style: 2px solid white;
 }
 .skills.sql-image-wrapper {
   content: url('./assets/sql.svg');
