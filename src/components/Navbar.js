@@ -10,10 +10,10 @@ export default class Navbar extends Component {
           <div className="typewriter">
             >> Brian Thomas Hammond - Web Developer
             </div>
-          <projects><a href="#projects" onClick={() => { this.props.projectChange() }}>Projects</a></projects>
-          <skills><a href="#skills" onClick={() => { this.props.skillsChange() }}> Skills </a></skills>
-          <resume><a href="#resume" onClick={() => { window.open(this.props.file) }}> Resume </a></resume>
-          <contact><a href="mailto:brianthomashammond@gmail.com">Contact</a></contact>
+          <projects><a href="#projects" className="projects link" onClick={() => { this.props.projectChange() }}>Projects</a></projects>
+          <skills><a href="#skills" className="skills link" onClick={() => { this.props.skillsChange() }}> Skills </a></skills>
+          <resume><a href="#resume" className="resume link" onClick={() => { window.open(this.props.file) }}> Resume </a></resume>
+          <contact><a href="mailto:brianthomashammond@gmail.com" className="contact link" >Contact</a></contact>
         </p>
       </div>
     )

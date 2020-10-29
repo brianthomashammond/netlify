@@ -15,6 +15,8 @@ export default class ProjectDrop extends Component {
                             <div id="projectone-links-wrapper" class="fade-in">
                                 <p2>Riddle Me This...</p2>
                                 <br />
+                                <p2>HTML/CSS/JavaScript</p2>
+                                <br />
                                 <p2><a href="https://brianthomashammond.github.io/riddle-me-this/" target="_blank" rel="noopener noreferrer">live</a> | <a href="https://github.com/brianthomashammond/riddle-me-this" target="_blank" rel="noopener noreferrer">github</a></p2>
                             </div>
                         </li>
@@ -27,6 +29,8 @@ export default class ProjectDrop extends Component {
                             <div id="projecttwo-links-wrapper" class="fade-in">
                                 <p2>LARK</p2>
                                 <br />
+                                <p2>Ruby</p2>
+                                <br />
                                 <p2><a href="https://github.com/brianthomashammond/LARK" target="_blank" rel="noopener noreferrer">github</a></p2>
                             </div>
                         </li>
@@ -37,15 +41,17 @@ export default class ProjectDrop extends Component {
                             </div>
 
                             <div id="projectthree-links-wrapper" class="fade-in">
-                                <p2>In Progress</p2>
+                                <p2>This Portfolio</p2>
                                 <br />
-                                <p2><a href="projectthree deployed link" target="_blank">live</a> | <a href="projectthree live link" target="_blank">github</a>
+                                <p2>React/CSS</p2>
+                                <br />
+                                <p2><a href="https://brianthomashammond.netlify.app" target="_blank" rel="noopener noreferrer">live</a> | <a href="https://github.com/brianthomashammond/netlify" target="_blank" rel="noopener noreferrer">github</a>
                                 </p2>
                             </div>
                         </li>
                     </ul>
                 </div>
-            </div>
+            </div >
         )
     }
 
