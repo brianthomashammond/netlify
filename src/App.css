@@ -319,19 +319,19 @@ contact {
 
 .projects.projectone-image-wrapper {
   content: url('./assets/1457633527.svg');
-  max-width: 50%;
+  max-width: 100%;
   height: auto;
 }
 
 .projects.projecttwo-image-wrapper {
   content: url('./assets/LARK.png');
-  max-width: 30%;
+  max-width: 100%;
   height: auto;
 }
 
 .projects.projectthree-image-wrapper {
   content: url('./assets/biglogo.png');
-  max-width: 30%;
+  max-width: 100%;
   height: auto;
 }
 
