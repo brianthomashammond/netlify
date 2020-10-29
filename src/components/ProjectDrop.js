@@ -8,7 +8,7 @@ export default class ProjectDrop extends Component {
                 <div className="projects thumbnails-container">
                     <ul>
                         <li id="projectone" >
-                            <div className="projects projectone-wrapper">
+                            <div className="projects projectone-wrapper" onclick="toggleExpansion(event, this.id)">
                                 <i className="projects projectone-image-wrapper"></i>
                             </div>
 
