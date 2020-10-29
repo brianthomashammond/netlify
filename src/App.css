@@ -159,6 +159,7 @@ contact {
   position: absolute;
   top: 10vh;
   left: 50vw;
+  z-index: 1;
   width: 100%;
   /* -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%); */
@@ -172,6 +173,7 @@ contact {
   position: absolute;
   top: 50vh;
   left: 50vw;
+  z-index: 1;
   /* -ms-transform: translate(-50%, -50%); */
   /* transform: translate(-50%, -50%); */
   width: 100%;
@@ -180,7 +182,8 @@ contact {
 .projects.off {
   opacity: 0;
   top: 10vh;
-  left: 50vw
+  left: 50vw;
+  z-index: 1;
 }
 
 .skills.fadeOut {
