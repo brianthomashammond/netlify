@@ -110,7 +110,7 @@ a.navbar.contact.link:hover {
 .navbar.bottom {
   margin: 0;
   position: absolute;
-  top: 90vh;
+  top: 85vh;
   left: 50vw;
   z-index: 2;
   -ms-transform: translate(-50%, -50%);
