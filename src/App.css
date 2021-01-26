@@ -329,7 +329,7 @@ a.navbar.contact.link:hover {
   height: auto;
 }
 .skills.postman-image-wrapper {
-  content: url("./assets/postman.png");
+  content: url("./assets/postman-resize.svg");
   max-width: 10%;
   height: auto;
 }
