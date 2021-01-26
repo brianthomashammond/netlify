@@ -307,6 +307,12 @@ a.navbar.contact.link:hover {
   height: auto;
 }
 
+.skills.detox-image-wrapper {
+  content: url("./assets/detox-icon.svg");
+  max-width: 10%;
+  height: auto;
+}
+
 .skills.git-image-wrapper {
   content: url("./assets/git-plain-wordmark.svg");
   max-width: 10%;

@@ -11,7 +11,7 @@ export default class SkillsRiser extends Component {
             <i className="skills css3-image-wrapper"></i>
             <i className="skills html5-image-wrapper"></i>
             <i className="skills ruby-image-wrapper"></i>
-            <i className="skills sql-image-wrapper"></i>
+            <i className="skills detox-image-wrapper"></i>
           </div>
           <div className="skills div">
             <i className="skills react-image-wrapper"></i>
