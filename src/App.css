@@ -261,7 +261,8 @@ a.navbar.contact.link:hover {
 
 #projectone-links-wrapper,
 #projecttwo-links-wrapper,
-#projectthree-links-wrapper {
+#projectthree-links-wrapper,
+#projectfour-links-wrapper {
   text-align: center;
 }
 
@@ -283,9 +284,17 @@ a.navbar.contact.link:hover {
   height: auto;
 }
 
+.projects.projectfour-image-wrapper {
+    content: url("./assets/grant-lemons-jTCLppdwSEc-unsplash.jpg");
+    max-width: 75%;
+    height: auto;
+  }
+
 .projects.projectone-wrapper,
 .projects.projecttwo-wrapper,
-.projects.projectthree-wrapper {
+.projects.projectthree-wrapper,
+.projects.projectfour-wrapper
+ {
   display: flex;
   flex-direction: row;
   justify-content: center;

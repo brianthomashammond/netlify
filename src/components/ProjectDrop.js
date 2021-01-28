@@ -81,6 +81,34 @@ export default class ProjectDrop extends Component {
                 </a>
               </div>
             </li>
+
+            <li id="projectfour">
+              <div className="projects projectfour-wrapper">
+                <i className="projects projectfour-image-wrapper"></i>
+              </div>
+
+              <div id="projectfour-links-wrapper">
+                My Apartment Tracker
+                <br />
+                React in Rails
+                <br />
+                <a
+                  href="https://vast-island-05116.herokuapp.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  live
+                </a>{" "}
+                |{" "}
+                <a
+                  href="https://github.com/brianthomashammond/my-apartment-tracker"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  github
+                </a>
+              </div>
+            </li>
           </ul>
         </div>
       </div>
