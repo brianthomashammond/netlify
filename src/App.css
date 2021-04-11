@@ -259,41 +259,41 @@ a.navbar.contact.link:hover {
   list-style: none;
 }
 
-#projectone-links-wrapper,
-#projecttwo-links-wrapper,
-#projectthree-links-wrapper,
-#projectfour-links-wrapper {
+#project-one-links-wrapper,
+#project-two-links-wrapper,
+#project-three-links-wrapper,
+#project-four-links-wrapper {
   text-align: center;
 }
 
-.projects.projectone-image-wrapper {
-  content: url("./assets/1457633527.svg");
+.projects.project-one-image-wrapper {
+  content: url("./assets/grant-lemons-jTCLppdwSEc-unsplash.jpg");
   max-width: 75%;
   height: auto;
 }
 
-.projects.projecttwo-image-wrapper {
-  content: url("./assets/LARK.png");
-  max-width: 75%;
-  height: auto;
-}
-
-.projects.projectthree-image-wrapper {
+.projects.project-two-image-wrapper {
   content: url("./assets/biglogo.png");
   max-width: 75%;
   height: auto;
 }
 
-.projects.projectfour-image-wrapper {
-    content: url("./assets/grant-lemons-jTCLppdwSEc-unsplash.jpg");
+.projects.project-three-image-wrapper {
+  content: url("./assets/LARK.png");
+  max-width: 75%;
+  height: auto;
+}
+
+.projects.project-four-image-wrapper {
+    content: url("./assets/1457633527.svg");
     max-width: 75%;
     height: auto;
   }
 
-.projects.projectone-wrapper,
-.projects.projecttwo-wrapper,
-.projects.projectthree-wrapper,
-.projects.projectfour-wrapper
+.projects.project-one-wrapper,
+.projects.project-two-wrapper,
+.projects.project-three-wrapper,
+.projects.project-four-wrapper
  {
   display: flex;
   flex-direction: row;
