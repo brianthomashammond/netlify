@@ -1,111 +1,110 @@
-import React, { Component } from "react"
+import React from "react"
 
-export default class ProjectDrop extends Component {
-  render() {
+const ProjectDrop = (props) => {
     return (
-      <div className={this.props.projectsPosition}>
-        <div className="projects thumbnails-container">
-          <ul>
-            <li id="project-one">
-              <div className="projects project-one-wrapper">
-                <i className="projects project-one-image-wrapper"></i>
-              </div>
-
-              <div id="project-one-links-wrapper">
-                My Apartment Tracker
-                <br />
-                React/Rails
-                <br />
-                <a
-                  href="https://vast-island-05116.herokuapp.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  live
-                </a>
-                {" | "}
-                <a
-                  href="https://github.com/brianthomashammond/my-apartment-tracker"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  github
-                </a>
-              </div>
-            </li>
-            <li id="project-two">
-              <div className="projects project-two-wrapper">
-                <i className="projects project-two-image-wrapper"></i>
-              </div>
-              <div id="project-two-links-wrapper">
-                This Portfolio
-                <br />
-                React/CSS
-                <br />
-                <a
-                  href="https://brianthomashammond.netlify.app"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  live
-                </a>{" "}
-                |{" "}
-                <a
-                  href="https://github.com/brianthomashammond/netlify"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  github
-                </a>
-              </div>
-            </li>
-            <li id="project-three">
-              <div className="projects project-three-wrapper">
-                <i className="projects project-three-image-wrapper"></i>
-              </div>
-              <div id="project-three-links-wrapper">
-                LARK
-                <br />
-                Ruby
-                <br />
-                <a
-                  href="https://github.com/brianthomashammond/LARK"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  github
-                </a>
-              </div>
-            </li>
-            <li id="project-four">
-              <div className="projects project-four-wrapper">
-                <i className="projects project-four-image-wrapper"></i>
-              </div>
-              <div id="project-four-links-wrapper">
-                Riddle Me This...
-                <br />
-                HTML/CSS/JavaScript
-                <br />
-                <a
-                  href="https://brianthomashammond.github.io/riddle-me-this/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  live
-                </a>
-                {" | "}
-                <a
-                  href="https://github.com/brianthomashammond/riddle-me-this"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  github
-                </a>
-              </div>
-            </li>
-          </ul>
+        <div className={props.projectsPosition}>
+            <div className="projects thumbnails-container">
+            <ul>
+                <li id="project-one">
+                <div className="projects project-one-wrapper">
+                    <i className="projects project-one-image-wrapper"></i>
+                </div>
+                <div id="project-one-links-wrapper">
+                    My Apartment Tracker
+                    <br />
+                    React/Rails
+                    <br />
+                    <a
+                    href="https://vast-island-05116.herokuapp.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >
+                    live
+                    </a>
+                    {" | "}
+                    <a
+                    href="https://github.com/brianthomashammond/my-apartment-tracker"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >
+                    github
+                    </a>
+                </div>
+                </li>
+                <li id="project-two">
+                <div className="projects project-two-wrapper">
+                    <i className="projects project-two-image-wrapper"></i>
+                </div>
+                <div id="project-two-links-wrapper">
+                    This Portfolio
+                    <br />
+                    React/CSS
+                    <br />
+                    <a
+                    href="https://brianthomashammond.netlify.app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >
+                    live
+                    </a>{" "}
+                    |{" "}
+                    <a
+                    href="https://github.com/brianthomashammond/netlify"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >
+                    github
+                    </a>
+                </div>
+                </li>
+                <li id="project-three">
+                <div className="projects project-three-wrapper">
+                    <i className="projects project-three-image-wrapper"></i>
+                </div>
+                <div id="project-three-links-wrapper">
+                    LARK
+                    <br />
+                    Ruby
+                    <br />
+                    <a
+                    href="https://github.com/brianthomashammond/LARK"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >
+                    github
+                    </a>
+                </div>
+                </li>
+                <li id="project-four">
+                <div className="projects project-four-wrapper">
+                    <i className="projects project-four-image-wrapper"></i>
+                </div>
+                <div id="project-four-links-wrapper">
+                    Riddle Me This...
+                    <br />
+                    HTML/CSS/JavaScript
+                    <br />
+                    <a
+                    href="https://brianthomashammond.github.io/riddle-me-this/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >
+                    live
+                    </a>
+                    {" | "}
+                    <a
+                    href="https://github.com/brianthomashammond/riddle-me-this"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >
+                    github
+                    </a>
+                </div>
+                </li>
+            </ul>
+            </div>
         </div>
-      </div>
     )
-  }
 }
+
+export default ProjectDrop
