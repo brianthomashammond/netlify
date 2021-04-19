@@ -5,11 +5,37 @@ const ProjectDrop = (props) => {
         <div className={props.projectsPosition}>
             <div className="projects thumbnails-container">
             <ul>
-                <li id="project-one">
+            <li id="project-one">
                 <div className="projects project-one-wrapper">
                     <i className="projects project-one-image-wrapper"></i>
                 </div>
                 <div id="project-one-links-wrapper">
+                    ColorPlunk!
+                    <br />
+                    React/Tone.js
+                    <br />
+                    <a
+                    href="https://nameless-spire-38256.herokuapp.com/demo"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >
+                    live
+                    </a>
+                    {" | "}
+                    <a
+                    href="https://github.com/brianthomashammond/mintbean-js-musichacks"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >
+                    github
+                    </a>
+                </div>
+                </li>
+                <li id="project-two">
+                <div className="projects project-two-wrapper">
+                    <i className="projects project-two-image-wrapper"></i>
+                </div>
+                <div id="project-two-links-wrapper">
                     My Apartment Tracker
                     <br />
                     React/Rails
@@ -31,11 +57,11 @@ const ProjectDrop = (props) => {
                     </a>
                 </div>
                 </li>
-                <li id="project-two">
-                <div className="projects project-two-wrapper">
-                    <i className="projects project-two-image-wrapper"></i>
+                <li id="project-three">
+                <div className="projects project-three-wrapper">
+                    <i className="projects project-three-image-wrapper"></i>
                 </div>
-                <div id="project-two-links-wrapper">
+                <div id="project-three-links-wrapper">
                     This Portfolio
                     <br />
                     React/CSS
@@ -57,11 +83,11 @@ const ProjectDrop = (props) => {
                     </a>
                 </div>
                 </li>
-                <li id="project-three">
-                <div className="projects project-three-wrapper">
-                    <i className="projects project-three-image-wrapper"></i>
+                <li id="project-four">
+                <div className="projects project-four-wrapper">
+                    <i className="projects project-four-image-wrapper"></i>
                 </div>
-                <div id="project-three-links-wrapper">
+                <div id="project-four-links-wrapper">
                     LARK
                     <br />
                     Ruby
@@ -75,11 +101,11 @@ const ProjectDrop = (props) => {
                     </a>
                 </div>
                 </li>
-                <li id="project-four">
-                <div className="projects project-four-wrapper">
-                    <i className="projects project-four-image-wrapper"></i>
+                <li id="project-five">
+                <div className="projects project-five-wrapper">
+                    <i className="projects project-five-image-wrapper"></i>
                 </div>
-                <div id="project-four-links-wrapper">
+                <div id="project-five-links-wrapper">
                     Riddle Me This...
                     <br />
                     HTML/CSS/JavaScript
