@@ -34,18 +34,16 @@ const App = () => {
     }
 
     return (
-        <>
-            <div>
-                <ProjectDrop projectsPosition={projectsPosition} />
-                <Navbar
-                    navPosition={navPosition}
-                    projectChange={projectChange}
-                    skillsChange={skillsChange}
-                    file={file}
-                />
-                <SkillsRiser skillsPosition={skillsPosition} />
-            </div>
-        </>
+        <div>
+            <ProjectDrop projectsPosition={projectsPosition} />
+            <Navbar
+                navPosition={navPosition}
+                projectChange={projectChange}
+                skillsChange={skillsChange}
+                file={file}
+            />
+            <SkillsRiser skillsPosition={skillsPosition} />
+        </div>
     )
 }
 

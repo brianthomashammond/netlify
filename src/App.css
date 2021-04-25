@@ -2,7 +2,7 @@ body {
   white-space: nowrap;
   text-align: center;
   color: #7dd9ff;
-  font-family: "Menlo", monospace;
+  font-family: 'Menlo', monospace;
   font-size: 1.1vw;
 }
 
@@ -51,7 +51,7 @@ a.navbar.contact.link:hover {
   white-space: nowrap;
   text-align: center;
   color: #7dd9ff;
-  font-family: "Menlo", monospace;
+  font-family: 'Menlo', monospace;
   font-size: 2.2vw;
 }
 
@@ -120,7 +120,7 @@ a.navbar.contact.link:hover {
 
 .typewriter {
   color: #7dd9ff;
-  font-family: "Menlo", monospace;
+  font-family: 'Menlo', monospace;
   font-size: 2.2vw;
   overflow: hidden;
   white-space: nowrap;
@@ -268,31 +268,31 @@ a.navbar.contact.link:hover {
 }
 
 .projects.project-one-image-wrapper {
-  content: url("./assets/colorplunk-screenshot.png");
+  content: url('./assets/colorplunk-screenshot.png');
   max-width: 75%;
   height: auto;
 }
 
 .projects.project-two-image-wrapper {
-  content: url("./assets/grant-lemons-jTCLppdwSEc-unsplash.jpg");
+  content: url('./assets/grant-lemons-jTCLppdwSEc-unsplash.jpg');
   max-width: 75%;
   height: auto;
 }
 
 .projects.project-three-image-wrapper {
-  content: url("./assets/biglogo.png");
+  content: url('./assets/biglogo.png');
   max-width: 75%;
   height: auto;
 }
 
 .projects.project-four-image-wrapper {
-  content: url("./assets/LARK.png");
+  content: url('./assets/LARK.png');
   max-width: 75%;
   height: auto;
 }
 
 .projects.project-five-image-wrapper {
-  content: url("./assets/1457633527.svg");
+  content: url('./assets/1457633527.svg');
   max-width: 75%;
   height: auto;
 }
@@ -312,60 +312,67 @@ a.navbar.contact.link:hover {
 }
 
 .skills.javascript-image-wrapper {
-  content: url("./assets/javascript.svg");
+  content: url('./assets/javascript.svg');
   max-width: 10%;
   height: auto;
 }
 
 .skills.css3-image-wrapper {
-  content: url("./assets/css3-original-wordmark.svg");
+  content: url('./assets/css3-original-wordmark.svg');
   max-width: 10%;
   height: auto;
 }
 
 .skills.detox-image-wrapper {
-  content: url("./assets/detox-icon.svg");
+  content: url('./assets/detox-icon.svg');
   max-width: 10%;
   height: auto;
 }
 
 .skills.git-image-wrapper {
-  content: url("./assets/git-plain-wordmark.svg");
+  content: url('./assets/git-plain-wordmark.svg');
   max-width: 10%;
   height: auto;
 }
+
 .skills.html5-image-wrapper {
-  content: url("./assets/html5-original-wordmark.svg");
+  content: url('./assets/html5-original-wordmark.svg');
   max-width: 10%;
   height: auto;
 }
+
 .skills.postgresql-image-wrapper {
-  content: url("./assets/postgresql-original-wordmark.svg");
+  content: url('./assets/postgresql-original-wordmark.svg');
   max-width: 10%;
   height: auto;
 }
+
 .skills.postman-image-wrapper {
-  content: url("./assets/postman-resize.svg");
+  content: url('./assets/postman-resize.svg');
   max-width: 10%;
   height: auto;
 }
+
 .skills.rails-image-wrapper {
-  content: url("./assets/rails-original-wordmark.svg");
+  content: url('./assets/rails-original-wordmark.svg');
   max-width: 10%;
   height: auto;
 }
+
 .skills.react-image-wrapper {
-  content: url("./assets/react-original-wordmark.svg");
+  content: url('./assets/react-original-wordmark.svg');
   max-width: 10%;
   height: auto;
 }
+
 .skills.ruby-image-wrapper {
-  content: url("./assets/ruby-plain-wordmark.svg");
+  content: url('./assets/ruby-plain-wordmark.svg');
   max-width: 10%;
   height: auto;
 }
+
 .skills.sql-image-wrapper {
-  content: url("./assets/sql.svg");
+  content: url('./assets/sql.svg');
   max-width: 10%;
   height: auto;
 }
