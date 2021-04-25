@@ -1,8 +1,8 @@
 import React from "react"
 
-const ProjectDrop = (props) => {
+const ProjectDrop = ({ projectsPosition }) => {
     return (
-        <div className={props.projectsPosition}>
+        <div className={projectsPosition}>
             <div className="projects thumbnails-container">
             <ul>
             <li id="project-one">

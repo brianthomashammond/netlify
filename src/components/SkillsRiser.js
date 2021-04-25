@@ -1,8 +1,8 @@
 import React from 'react'
 
-const SkillsRiser = (props) => {
+const SkillsRiser = ({ skillsPosition }) => {
     return (
-        <div className={props.skillsPosition}>
+        <div className={skillsPosition}>
         <div className="skills div">
             <div className="skills div">
             <i className="skills javascript-image-wrapper"></i>

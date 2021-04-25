@@ -1,18 +1,18 @@
 import React from "react"
 
-const Navbar = (props) => {
+const Navbar = ({ navPosition, projectChange, skillsChange, file}) => {
     return (
-        <div className={props.navPosition}>
+        <div className={navPosition}>
             <div className="navbar">
             <div className="typewriter">
-                >> Brian Thomas Hammond - Web Developer
+                {'>>'} Brian Thomas Hammond - Web Developer
             </div>
             <span className="navbar projects">
                 <a
                 href="#projects"
                 className="navbar projects link"
                 onClick={() => {
-                    props.projectChange()
+                    projectChange()
                 }}
                 >
                 Projects
@@ -23,7 +23,7 @@ const Navbar = (props) => {
                 href="#skills"
                 className="navbar skills link"
                 onClick={() => {
-                    props.skillsChange()
+                    skillsChange()
                 }}
                 >
                 {" "}Skills{" "}
@@ -34,7 +34,7 @@ const Navbar = (props) => {
                 href="#resume"
                 className="navbar resume link"
                 onClick={() => {
-                    window.open(props.file)
+                    window.open(file)
                 }}
                 >
                 {" "}Resume{" "}
