@@ -15,7 +15,7 @@ const ProjectDrop = ({ projectsPosition }) => {
                             React/Tone.js
                             <br />
                             <a
-                                href='https://nameless-spire-38256.herokuapp.com/demo'
+                                href='https://colorplunk.netlify.app/demo'
                                 target='_blank'
                                 rel='noopener noreferrer'
                             >
