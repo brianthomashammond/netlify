@@ -144,7 +144,7 @@ a.navbar.contact.link:hover {
   animation: projects-fade-in ease 2s forwards;
   margin: 0;
   position: absolute;
-  top: 50vh;
+  top: 45vh;
   left: 50vw;
   z-index: 1;
   width: 100%;
@@ -174,7 +174,7 @@ a.navbar.contact.link:hover {
   animation: skills-fade-in ease 2.5s forwards;
   margin: 0;
   position: absolute;
-  top: 50vh;
+  top: 55vh;
   left: 50vw;
   width: 100%;
   transition: 2s;
@@ -255,7 +255,6 @@ a.navbar.contact.link:hover {
   flex-wrap: wrap;
   box-sizing: border-box;
   background-color: black;
-  padding: 5% 0;
   list-style: none;
 }
 

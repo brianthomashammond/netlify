@@ -83,6 +83,10 @@ const ProjectDrop = ({ projectsPosition }) => {
                             </a>
                         </div>
                     </li>
+                </ul>
+            </div>
+            <div className='projects thumbnails-container'>
+                <ul>
                     <li id='project-four'>
                         <div className='projects project-four-wrapper'>
                             <i className='projects project-four-image-wrapper'></i>

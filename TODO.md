@@ -4,6 +4,4 @@
 
 - Improve layout of skills
 
-- Projects should have multiple rows
-
 - Incorporate style transition
