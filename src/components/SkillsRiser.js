@@ -15,7 +15,7 @@ const SkillsRiser = ({ skillsPosition }) => {
                     <i className='skills react-image-wrapper' />
                     <i className='skills rails-image-wrapper' />
                     <i className='skills postgresql-image-wrapper' />
-                    <i className='skills postman-image-wrapper' />
+                    <i className='skills redux-image-wrapper' />
                     <i className='skills git-image-wrapper' />
                 </div>
             </div>

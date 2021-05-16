@@ -346,8 +346,8 @@ a.navbar.contact.link:hover {
   height: auto;
 }
 
-.skills.postman-image-wrapper {
-  content: url('./assets/postman-resize.svg');
+.skills.redux-image-wrapper {
+  content: url('./assets/Redux.svg');
   max-width: 10%;
   height: auto;
 }
