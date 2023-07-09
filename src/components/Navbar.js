@@ -5,7 +5,7 @@ const Navbar = ({ navPosition, projectChange, skillsChange, file}) => {
         <div className={navPosition}>
             <div className='navbar'>
                 <div className='typewriter'>
-                    {'>>'} Brian Thomas Hammond - Web Developer
+                    {'>>'} Brian Thomas Hammond - Software Engineer
                 </div>
                 <span className='navbar projects'>
                     <a
